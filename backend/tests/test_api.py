@@ -1,3 +1,6 @@
+import os, sys
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+
 import pytest
 from app import app
 
@@ -17,6 +20,7 @@ def test_chat_flow(client):
     assert rv.status_code == 200
     data = rv.get_json()
     assert "bot" in data and "user_sentiment" in data
+
     s = client.get("/summary").get_json()
     assert "summary" in s
     assert s["summary"]["overall_label"] in ("Positive", "Neutral", "Negative")
