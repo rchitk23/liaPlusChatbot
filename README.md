@@ -1,3 +1,6 @@
+<img width="1188" height="741" alt="image" src="https://github.com/user-attachments/assets/fc976f04-7d79-40df-9f20-4755db523ef6" />
+
+
 # LiaPlus Sentiment-Aware ChatBot (React + Flask)
 
 A full-stack chatbot project implementing Tier 1 and Tier 2 requirements of the assignment, with additional enhancements.
