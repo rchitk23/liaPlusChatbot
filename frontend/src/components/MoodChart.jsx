@@ -19,5 +19,8 @@ return ()=> chart.destroy();
 }, [userScores]);
 
 
+
+
+
 return <canvas ref={canvasRef} width={300} height={160} />;
 }

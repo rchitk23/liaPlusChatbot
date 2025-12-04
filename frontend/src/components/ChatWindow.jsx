@@ -70,9 +70,9 @@ useEffect(()=> scrollBottom(), [messages]);
 
 
 return (
-<div className="grid grid-cols-3 gap-6">
+<div className="grid grid-cols-3 gap-6" >
 <div className="col-span-2">
-<div ref={chatRef} className="bg-[#17122b] p-4 rounded h-[60vh] overflow-auto">
+<div ref={chatRef} className="bg-[#17122b] p-4 rounded h-[60vh] overflow-auto" >
 {messages.map((m,i)=> <MessageBubble key={i} msg={m} />)}
 </div>
 
