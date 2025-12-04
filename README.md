@@ -13,13 +13,13 @@ Professional candidate submission implementing Tier 1 and Tier 2 requirements.
 ## Tech stack
 - Frontend: React 18, Chart.js, marked, Tailwind (optional).
 - Backend: Python 3.10+, Flask, NLTK (VADER).
-- Testing: pytest.
+- Testing: pytest
 
 ## How to run
 
 ### Frontend
-npm install
-npm start
+npm install-->
+npm start-->
 Open http://localhost:3000
 
 ### Backend
