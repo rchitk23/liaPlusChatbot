@@ -59,4 +59,8 @@ Additionally:
 Emotion keyword detection tags messages (joy, anger, sadness, fear, surprise).
 Trend is calculated by comparing first half vs second half of scores.
 
+### Future Scope/ Other methods
+1. Using google gemini key(online).
+2. Using ml and training upon a dataset(offline).
+
 
